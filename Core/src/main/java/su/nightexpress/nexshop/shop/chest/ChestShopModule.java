@@ -45,7 +45,6 @@ import su.nightexpress.nexshop.shop.chest.impl.ChestBank;
 import su.nightexpress.nexshop.shop.chest.impl.ChestProduct;
 import su.nightexpress.nexshop.shop.chest.impl.ChestShop;
 import su.nightexpress.nexshop.shop.chest.impl.ChestStock;
-import su.nightexpress.nexshop.shop.chest.listener.RegionMarketListener;
 import su.nightexpress.nexshop.shop.chest.listener.ShopListener;
 import su.nightexpress.nexshop.shop.chest.listener.UpgradeHopperListener;
 import su.nightexpress.nexshop.shop.chest.menu.*;
@@ -223,9 +222,6 @@ public class ChestShopModule extends AbstractShopModule implements TransactionMo
             if (Plugins.isInstalled(HookId.KINGDOMS)) this.claimHooks.add(new KingdomsHook());
         }
 
-        if (Plugins.isInstalled(HookId.ADVANCED_REGION_MARKET)) {
-            this.addListener(new RegionMarketListener(this.plugin, this));
-        }
 
         if (ChestUtils.isInfiniteStorage()) {
             if (Plugins.isInstalled(HookId.UPGRADEABLE_HOPPERS)) {

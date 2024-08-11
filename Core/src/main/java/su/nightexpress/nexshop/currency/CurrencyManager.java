@@ -10,7 +10,6 @@ import su.nightexpress.nexshop.ShopPlugin;
 import su.nightexpress.nexshop.api.currency.Currency;
 import su.nightexpress.nexshop.api.currency.CurrencyHandler;
 import su.nightexpress.nexshop.currency.handler.*;
-import su.nightexpress.nexshop.currency.impl.CoinsEngineCurrency;
 import su.nightexpress.nexshop.currency.impl.ConfigCurrency;
 import su.nightexpress.nexshop.currency.impl.DummyCurrency;
 import su.nightexpress.nexshop.currency.impl.UltraEconomyCurrency;
@@ -92,17 +91,8 @@ public class CurrencyManager extends AbstractManager<ShopPlugin> {
         if (Plugins.isInstalled(HookId.PLAYER_POINTS)) {
             this.loadCurrency(PlayerPointsHandler.ID, PlayerPointsHandler::new);
         }
-        if (Plugins.isInstalled(HookId.BEAST_TOKENS)) {
-            this.loadCurrency(BeastTokensHandler.ID, BeastTokensHandler::new);
-        }
         if (Plugins.isInstalled(HookId.VOTING_PLUGIN)) {
             this.loadCurrency(VotingPluginHandler.ID, VotingPluginHandler::new);
-        }
-        if (Plugins.isInstalled(HookId.ELITEMOBS)) {
-            this.loadCurrency(EliteMobsHandler.ID, EliteMobsHandler::new);
-        }
-        if (Plugins.isInstalled(HookId.COINS_ENGINE)) {
-            CoinsEngineCurrency.getCurrencies().forEach(this::registerCurrency);
         }
 
         if (Plugins.isInstalled(HookId.GEMS_ECONOMY)) {

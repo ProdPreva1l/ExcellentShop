@@ -19,7 +19,6 @@ import su.nightexpress.nexshop.shop.chest.ChestShopModule;
 import su.nightexpress.nexshop.shop.chest.compatibility.WorldGuardFlags;
 import su.nightexpress.nexshop.shop.impl.handler.ItemsAdderHandler;
 import su.nightexpress.nexshop.shop.impl.handler.MMOItemsHandler;
-import su.nightexpress.nexshop.shop.impl.handler.OraxenItemHandler;
 import su.nightexpress.nexshop.shop.virtual.VirtualShopModule;
 import su.nightexpress.nightcore.NightDataPlugin;
 import su.nightexpress.nightcore.command.experimental.ImprovedCommands;
@@ -129,9 +128,6 @@ public class ShopPlugin extends NightDataPlugin<ShopUser> implements ImprovedCom
         ProductHandlerRegistry.register(ProductHandlerRegistry.BUKKIT_ITEM);
         ProductHandlerRegistry.register(ProductHandlerRegistry.BUKKIT_COMMAND);
 
-        if (Plugins.isInstalled(HookId.ORAXEN)) {
-            ProductHandlerRegistry.register(new OraxenItemHandler());
-        }
         if (Plugins.isInstalled(HookId.ITEMS_ADDER)) {
             ProductHandlerRegistry.register(new ItemsAdderHandler());
         }
