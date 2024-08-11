@@ -81,11 +81,11 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>net.alex9849.arm</groupId>
-            <artifactId>AdvancedRegionMarket</artifactId>
-            <version>3.5.3</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>net.alex9849.arm</groupId>-->
+<!--            <artifactId>AdvancedRegionMarket</artifactId>-->
+<!--            <version>3.5.3</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>me.clip</groupId>
@@ -94,11 +94,11 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>io.th0rgal.oraxen</groupId>
-            <artifactId>Oraxen</artifactId>
-            <version>1.155.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>io.th0rgal.oraxen</groupId>-->
+<!--            <artifactId>Oraxen</artifactId>-->
+<!--            <version>1.155.1</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.black_ixx</groupId>
@@ -143,11 +143,11 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>me.mraxetv.beasttokens</groupId>
-            <artifactId>BeastTokens</artifactId>
-            <version>3.11.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>me.mraxetv.beasttokens</groupId>-->
+<!--            <artifactId>BeastTokens</artifactId>-->
+<!--            <version>3.11.1</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>com.bencodez</groupId>
@@ -184,17 +184,17 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.magmaguy.elitemobs</groupId>
-            <artifactId>EliteMobs</artifactId>
-            <version>8.5.4</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.magmaguy.elitemobs</groupId>-->
+<!--            <artifactId>EliteMobs</artifactId>-->
+<!--            <version>8.5.4</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>su.nightexpress.coinsengine</groupId>
-            <artifactId>CoinsEngine</artifactId>
-            <version>2.3.3</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>su.nightexpress.coinsengine</groupId>-->
+<!--            <artifactId>CoinsEngine</artifactId>-->
+<!--            <version>2.3.3</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>me.TechsCode</groupId>
